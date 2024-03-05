@@ -1,0 +1,21 @@
+Spring boot projesindeki Klasör aşağıdaki gibidir *
+
+config: "config" klasörü, uygulama özellikleri veya YAML dosyaları gibi uygulamanın davranışını özelleştirmek için yapılandırma dosyalarını tutar ve geliştiricilerin sunucu bağlantı noktaları, veritabanı bağlantıları ve günlük yapılandırmaları gibi ayarları belirtmesine olanak tanır.
+
+controllers: "controllers" klasörü, gelen HTTP isteklerini işlemekten, RESTful uç noktalarını tanımlamaktan ve verileri işlemekten sorumlu sınıfları içerir. Denetleyiciler istekleri alır, hizmetlerle etkileşim kurar ve istemciye uygun yanıtları döndürür.
+
+enums: "Numaralandırmalar" klasörü, uygulamadaki sabit bir sabit değerler kümesini temsil etmek için kullanılan numaralandırmaları tutar. Numaralandırmalar, durum kodları, türler veya kategoriler gibi önceden tanımlanmış seçenekleri tanımlamak ve bunlarla çalışmak için kullanışlı bir yol sağlar.
+
+models: "models" klasörü, uygulamanın etki alanının yapısını ve davranışını temsil eden veri modellerini veya varlıkları depolar. Bu sınıflar genellikle veritabanı tablolarına veya dış veri kaynaklarına eşlenir ve uygulama verilerinin özelliklerini ve ilişkilerini tanımlar.
+
+POJO / DTOs: "POJO" veya "DTO'lar" (Veri Aktarım Nesneleri) klasörü, uygulamanın katmanları arasında veri aktarımı için kullanılan düz eski Java nesneleri veya veri aktarım nesneleri olarak hizmet veren sınıfları içerir. Verileri kapsüllerler ve farklı bileşenler arasındaki iletişim için standartlaştırılmış bir format sağlarlar.
+
+Repositories: "Depolar" klasörü, veri erişimi ve kalıcılığından sorumlu sınıfları içerir. Bu sınıflar, temel alınan veritabanı veya veri deposuyla etkileşim kurarak verileri sorgulamak, kaydetmek, güncelleştirmek ve silmek için yöntemler sağlar. Depolar genellikle Spring Data, JPA veya diğer kalıcılık çerçevelerini kullanır.
+
+Security: "Güvenlik" klasörü, kimlik doğrulama ve yetkilendirme yapılandırması da dahil olmak üzere uygulama güvenliğiyle ilgili sınıfları içerir. Güvenlik yapılandırmaları, kimlik doğrulama sağlayıcıları, erişim denetimi kuralları ve güvenlikle ilgili özel sınıflar gibi bileşenler içerebilir.
+
+Services: "Hizmetler" klasörü, uygulamanın iş mantığını kapsülleyen sınıfları içerir. Hizmetler, denetleyiciler ve depolar arasında bir soyutlama katmanı sağlar, karmaşık işlemleri işler, verileri işler ve iş kurallarını uygular.
+
+Service Implementors: "Hizmet Uygulayıcıları" klasörü, hizmetlerin klasöründe tanımlanan arabirimleri uygulayan sınıfları içerir. Bu sınıflar, iş mantığının gerçek uygulamasını içerir ve hizmetler tarafından tanımlanan işlevselliği yerine getirmek için depolar ve diğer bileşenlerle etkileşim kurar.
+
+Utils : Spring Boot uygulamasındaki "utils" klasörü, uygulama genelinde yeniden kullanılabilir işlevsellik sağlayan yardımcı program sınıflarını veya yardımcı işlevleri barındırır. Bu sınıflar, veri dönüştürme, dize işleme, dosya işleme ve daha fazlası gibi ortak görevler sunar. Kod organizasyonunu teşvik eder, yinelemeyi azaltır ve paylaşılan işlevlere erişmeyi ve bunları kullanmayı kolaylaştırır.
