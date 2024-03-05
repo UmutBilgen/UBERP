@@ -1,0 +1,13 @@
+Paket İsimleri (Package Names): Küçük harflerle ve nokta (.) ile ayrılmış genel bir isimle başlamalıdır. Genellikle ters DNS şeklinde oluşturulur. Örneğin, com.example.mypackage.
+
+Sınıf İsimleri (Class Names): İsimlerin ilk harfi büyük olmalıdır ve CamelCase kullanılmalıdır. Örneğin, MyClass.
+
+Metot İsimleri (Method Names): Küçük harfle başlamalı ve CamelCase kullanılmalıdır. Örneğin, calculateTotal().
+
+Değişken İsimleri (Variable Names): Küçük harfle başlamalı ve CamelCase kullanılmalıdır. Genellikle anlamlı ve açıklayıcı olmalıdır. Örneğin, userName.
+
+Sabitler (Constants): Tüm harfler büyük olmalı ve alt çizgi (_) ile ayrılmalıdır. Örneğin, MAX_SIZE.
+
+Enum İsimleri (Enum Names): İsimlerin ilk harfi büyük olmalı ve CamelCase kullanılmalıdır. Örneğin, DaysOfWeek.
+
+Paket İçi Değişkenler (Package-private Variables): Paket içi erişim olan değişkenlerin isimleri sınırlı bir şekilde kullanılabilir. Genellikle küçük harfle başlar ve CamelCase kullanılır.
