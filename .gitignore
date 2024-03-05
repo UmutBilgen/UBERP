@@ -1,4 +1,5 @@
 # Logs
+/barkod/frontend/uberp/node_modules
 logs
 *.log
 npm-debug.log*
